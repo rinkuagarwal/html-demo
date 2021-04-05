@@ -1,0 +1,44 @@
+<html>
+    <link rel="stylesheet" href='Myform.css'>
+    <body>
+        <form >
+            <input placeholder="First Name">
+            <div onclick="action2()">
+            <input type="radio" name="type">Domestic
+            <input type="radio" name="type">International
+            </div>
+            <h3>Skills</h3>
+            <div onclick="doSomething()" >
+               <input type="checkbox">Java
+               <input type="checkbox">Python
+                <input type="checkbox">JavaScript
+            </div>
+          
+            <label>Date of Birth</label>
+            <input type="date">
+            <br>
+            <select multiple>
+                <option valuse="option1">option1</option>
+                <option valuse="option2">option2</option>
+                <option valuse="option3">option3</option>
+                <option valuse="option4">option4</option>
+                
+            </select>
+        </form>
+        <button onclick="add()">Save</button>
+    <table>
+        <thead>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rinky</td>
+                <td>Agarwal</td>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+    <script src="Myform.js">
+    </script>
+</html>
